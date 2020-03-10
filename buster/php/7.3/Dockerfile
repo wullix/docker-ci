@@ -5,6 +5,7 @@ RUN apt-get update; \
 	libpng-dev \
 	libbz2-dev \
 	git \
+	curl \
 	ssh \
 	rsync \
 	wget \
@@ -12,6 +13,7 @@ RUN apt-get update; \
 	libxml2-dev \
     zip \
     lftp \
+    libxslt1.1 libxslt1-dev zlibc unzip \
     && docker-php-ext-install bz2 \
 	&& docker-php-ext-install zip \
 	&& docker-php-ext-install gd \ 
