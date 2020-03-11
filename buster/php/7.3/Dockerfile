@@ -26,7 +26,7 @@ RUN apt-get update; \
 	&& docker-php-ext-configure xml --enable-xml \
 	&& docker-php-ext-configure intl --enable-intl \
 	&& docker-php-ext-configure xsl \
-	&& docker-php-ext-configure pdo_mysql --enable-pdo_mysql
+	&& docker-php-ext-configure pdo_mysql
 
 # Install composer
 
