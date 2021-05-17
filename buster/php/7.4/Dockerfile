@@ -11,7 +11,8 @@ RUN apt-get update; \
 	wget \
 	libzip-dev \
 	libxml2-dev \
-        zip \
+    zip \
+    unzip \
 libxslt1.1 libxslt1-dev zlibc  apt-transport-https \
     && docker-php-ext-install bz2 \
 	&& docker-php-ext-install zip \
