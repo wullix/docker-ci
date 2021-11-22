@@ -9,6 +9,7 @@ RUN apt-get update; \
 	ssh \
 	rsync \
 	wget \
+	curl \
 	libzip-dev \
 	libxml2-dev \
     zip \
